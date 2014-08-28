@@ -25,7 +25,12 @@
 - (BOOL) integer:(NSInteger)integer1 isGreaterThan:(NSInteger)integer2 {
 
     //Not done yet
-
+    /*
+    NSInteger temp1 = integer1;
+    NSInteger temp2 = integer2;
+    NSLog(@"Is x > y? %@", temp1 > temp2 ? @"Yes" : @"No");
+    */
+     
     BOOL temp = (integer1>integer2);
     return (temp);
 }
